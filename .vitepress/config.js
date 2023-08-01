@@ -8,17 +8,21 @@ export default defineConfig({
     outDir: './docs',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        logo: '/assets/logo.svg',
+        search: {
+            provider: 'local'
+        },
+
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Examples', link: '/markdown-examples'}
+            {text: 'Docs', link: '/getting-started'}
         ],
 
         sidebar: [
             {
-                text: 'Examples',
+                text: 'Getting Started',
                 items: [
-                    {text: 'Markdown Examples', link: '/markdown-examples'},
-                    {text: 'Runtime API Examples', link: '/api-examples'}
+                    {text: 'Installation', link: '/getting-started'},
                 ]
             }
         ],

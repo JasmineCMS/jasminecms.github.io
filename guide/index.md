@@ -5,21 +5,18 @@ layout: home
 hero:
   name: "Jasmine CMS"
   text: "A Laravel based CMS"
-  tagline: My great project tagline
+  tagline: A front-end agnostic CMS for Laravel applications
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Get Started
+      link: /getting-started
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Pages
+    details: Mange pages on your website, Like Home, About, Contact us
+  - title: Models
+    details: Manage models on your website folowing the BREAD (browse, read, edit, add ,delete) structure  
+  - title: Custom Functionality
+    details: Embed your custom business logic in to your Jasmine backend 
 ---
 
